@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
 .grid-container {
   display: grid;
-  flex-wrap: wrap;
-  justify-content: center; /* Center the content horizontally */
-  gap: 10px; /* Add some spacing between grid items */
+  grid-template-columns:  repeat(auto-fill, 210px) ;
+  grid-auto-columns:min-content;
+	gap: 10px; /*justify-content: center; Add some spacing between grid items */
 }
 
 /* Style each grid item */
