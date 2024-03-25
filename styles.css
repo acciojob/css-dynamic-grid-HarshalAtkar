@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 .grid-container {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center; /* Center the content horizontally */
   gap: 10px; /* Add some spacing between grid items */
